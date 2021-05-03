@@ -5,3 +5,40 @@ body{
 p.box{
     border-bottom:1px solid white;
 }
+.box5 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    border: double 5px white;
+}
+.box5 p {
+    margin: 0; 
+    padding: 0;
+}
+
+
+    span#a{float: left; }
+    span#c{float: right; }
+
+    .font40px{
+        font-size: 40px;
+    }
+    .subject {
+        text-align: left;  /* 文章を左寄せする(※) */
+        float: left; 
+        color:greenyellow;       /* 左端に寄せて、後続を右側へ回り込ませる */
+     }
+     .date {
+        text-align: right; /* 文章を右寄せする */
+        color:red;
+     }
+     .box9{
+        text-align: left;  /* 文章を左寄せする(※) */
+        float: left; 
+        color:white;
+        font-size:25px;       /* 左端に寄せて、後続を右側へ回り込ませる */
+     }
+     .box10{
+        text-align: right; /* 文章を右寄せする */
+        color:white;
+        font-size:25px;  
+     }
